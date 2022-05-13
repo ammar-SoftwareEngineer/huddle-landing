@@ -331,6 +331,7 @@ header .free button a {
 footer {
     background-color: hsl(192, 100%, 9%);
     position: relative;
+    padding-bottom: 100px;
 }
 
 footer .container {
@@ -338,7 +339,7 @@ footer .container {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    height: 35vh;
+    height: 100%;
 }
 
 footer .footer-info {
@@ -493,11 +494,9 @@ footer .copy p {
         flex-direction: column;
         gap: 50px;
         height: 100%;
-        padding-bottom: 100px;
     }
 
     footer .footer-info .logo img {
-
         margin-top: 100px;
     }
 
@@ -516,7 +515,6 @@ footer .copy p {
         left: 62%;
         top: 90%;
         transform: translate(-50%, -50%);
-
     }
 
 }
