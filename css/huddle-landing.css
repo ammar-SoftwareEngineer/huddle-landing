@@ -245,6 +245,9 @@ header .free button a {
 }
 
 @media(max-width:767px) {
+    .information .box .text:nth-child(1) p{
+        width: 300px;
+    }
     .information .box .image {
         order: -1;
         padding: 40px;
