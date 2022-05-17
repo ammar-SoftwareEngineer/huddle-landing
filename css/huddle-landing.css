@@ -259,12 +259,8 @@ header .free button a {
     width: 70%;
 }
 @media(max-width:991px){
-    .information .box {
-/* width: 900px; */
-    }
     .information .box .text p {
         color: hsl(208, 11%, 55%);
-        width: 90%;
         width: 350px;
         line-height: 1.5;
     }
