@@ -176,11 +176,13 @@ header .free button a {
         width: 320px;
         font-weight: 700;
         font-size: 28px;
+        margin: 20px auto;
     }
 
     .landing .text-landing p {
         width: 300px;
-        margin: 0 auto;
+        margin: 20px auto;
+        text-align: center;
     }
 
     .landing .text-landing button {
