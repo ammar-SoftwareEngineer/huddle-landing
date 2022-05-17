@@ -138,8 +138,9 @@ header .free button a {
 }
 
 .landing .text-landing h1 {
-    width: 350px;
+    width: 400px;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 
 .landing .text-landing p {
@@ -172,9 +173,9 @@ header .free button a {
     }
 
     .landing .text-landing h1 {
-        width: 300px;
+        width: 320px;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .landing .text-landing p {
