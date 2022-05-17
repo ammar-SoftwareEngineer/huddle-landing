@@ -208,9 +208,9 @@ header .free button a {
     box-shadow: 1px 1px 5px gainsboro;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .information .box .text {
@@ -234,20 +234,28 @@ header .free button a {
     padding: 35px;
 }
 
+.information .box:nth-child(2) {
+    position: relative;
+    width: 100%;
+}
+
 .information .box:nth-child(2) .image {
-    order: -1;
     padding: 40px;
+
 }
 
 .information .box:nth-child(2) .text {
-    margin-left: 20px;
-    padding-right: 0;
+    /* margin-left: 0px; */
+    position: absolute;
+    left: 50%;
+    width: 70%;
 }
 
 @media(max-width:767px) {
-    .information .box .text .one{
+    .information .box .text .one {
         width: 300px;
     }
+
     .information .box .image {
         order: -1;
         padding: 40px;
@@ -258,6 +266,7 @@ header .free button a {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .information .box .text {
@@ -274,13 +283,19 @@ header .free button a {
 
     }
 
+    .information .box:nth-child(2) {
+        position: initial;
+    }
+
     .information .box:nth-child(2) .text {
         margin-left: 0;
         padding: 40px;
+        position: initial;
+        width: 450px;
     }
 
     .information .box .text p {
-        width: 100%;
+        width: 280px;
 
     }
 
@@ -322,10 +337,15 @@ header .free button a {
 
 @media(max-width:767px) {
     .ready .ready-text {
-        width: auto;
+        width: 100%;
         text-align: center;
         border-radius: 10px;
         z-index: 1;
+
+    }
+
+    .ready .ready-text h3 {
+        font-size: 18px;
     }
 }
 
